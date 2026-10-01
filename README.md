@@ -3,7 +3,9 @@ This project explores parameter-efficient fine-tuning of Phi-2 for dialogue summ
 
 Both fine-tuned models improved over the vanilla Phi-2 model across ROUGE metrics. The default LoRA configuration achieved the strongest performance, while the Q/V-only setup reduced the number of trainable parameters by roughly 50% with only a modest reduction in training time and some loss in summarization quality.
 
-**Key Results**
+You can run __either one__ of the notebooks start-finish. There is no inherent difference between the two .ipynb files.
+
+# **Key Results**
 
 Default LoRA: ~20.97M trainable parameters, ~49 min training time
 
